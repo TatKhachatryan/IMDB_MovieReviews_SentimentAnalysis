@@ -22,3 +22,22 @@ To transform the text data into numerical form, I use TF-IDF (Term Frequency-Inv
 * **Max Features**: We limit the vectorization to the top 5000 features to balance performance and computational cost.
 This step converts each review into a sparse matrix that can be fed into machine learning models.
 
+
+### 3. End-to-End Model Training, Evaluation, and Timing ⏱️
+Once the data is preprocessed and vectorized, we train three models:
+
+* **Naive Bayes**: A simple yet effective algorithm for text classification that works well for sentiment analysis tasks.
+* **Logistic Regression**: A more complex model that captures the relationship between the features and the sentiment labels.
+* **DistilBERT**: A transformer-based model, which is pre-trained on a large corpus of data and fine-tuned for sentiment analysis.
+
+I evaluate each model based on several performance metrics:
+
+* **Accuracy**: The proportion of correct predictions.
+* **Precision**: The proportion of true positive predictions out of all positive predictions.
+* **Recall**: The proportion of true positive predictions out of all actual positives.
+* **F1-Score**: The harmonic mean of precision and recall, offering a balance between the two.
+Each model is also timed to capture how long it takes to process the dataset. DistilBERT takes much longer than Naive Bayes and Logistic Regression due to its complex architecture.
+
+
+
+
