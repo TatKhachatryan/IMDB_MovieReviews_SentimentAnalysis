@@ -49,9 +49,33 @@ I evaluate each model based on several performance metrics: **Accuracy, Precisio
 
 
 
-Model	Accuracy	Precision	Recall	F1-Score	Runtime (min)
-0	Naive Bayes (5K)	0.8505	0.850336	0.853542	0.851936	0.00
-1	Logistic Regression (5K)	0.8880	0.876176	0.905735	0.890710	0.01
-2	DistilBERT (5K)	0.8882	0.914745	0.858107	0.885521	97.70
+
+📊 Model Performance Breakdown
+
+* **Naive Bayes** performed decently with **85.05% accuracy**, making it a fast and efficient model for large-scale text classification.
+
+* **Logistic Regression** achieved **88.80% accuracy**, proving to be a strong baseline model with a balance between speed and accuracy.
+
+* **DistilBERT** slightly outperformed Logistic Regression with **88.82% accuracy**, but at the cost of a significantly higher runtime **(~98 minutes)**.
+
+### 6. Summary & Suggestions 📌
+
+✅ **Best Trade-off**: Logistic Regression provides a great balance between speed and performance, making it ideal for large datasets with limited computational resources.
+
+✅ **High-Accuracy Model**: DistilBERT delivers state-of-the-art performance but requires significant processing time, making it better suited for small-scale, high-quality analyses.
+
+✅ **Fastest Model**: Naive Bayes is the best option for quick predictions on large datasets with only a slight dip in accuracy.
+
+🚀 Future Improvements:
+
+* **Hyperparameter tuning** to optimize each model further.
+
+* **Experimenting with larger sample sizes** for better generalization.
+
+* **Exploring other transformer models** like BERT or RoBERTa for higher accuracy.
+
+This project highlights the trade-offs between **speed and accuracy** in sentiment analysis, showcasing how different models perform under real-world constraints. 🎥📊
+
+If you want to connect with me, send me a "Hi 👋 " on LinkedIn [![text](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/tatevik-khachatryan-/)
 
 
