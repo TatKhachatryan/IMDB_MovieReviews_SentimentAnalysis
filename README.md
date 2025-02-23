@@ -40,9 +40,19 @@ Once the data is preprocessed and vectorized, we train three models:
 ### 5. Evaluation and Timing ⏳
 I evaluate each model based on several performance metrics: **Accuracy, Precision, Recall,** and **F1-Score.** 
 
-| First Header | Second Header |
-| -------------| --------------|
-| Content Cell | Content Cell  |
-| Content Cell | Content Cell  |
+| Model                | Accuracy  | Precision | Recall   | F1-Score | Runtime |
+| 🏆 Naive Bayes       | 0.8505    | 0.850336 | 0.8535    | 0.8519   | 0.00    |
+| ---------------------| ----------| ----------| ---------| ---------| --------|
+|⚡ Logistic Regression | 0.8880    | 0.8762    | 0.9057   | 0.8907   | 0.01    |
+| -------------------- | ----------| ----------| ---------| ---------| --------|
+| 🤖 DistilBERT        | 0.8882    | 0.9147    | 0.8581   | 0.8855   | 97.70   |
+| ---------------------| ----------| ----------| ---------| ---------| --------|
+
+
+
+Model	Accuracy	Precision	Recall	F1-Score	Runtime (min)
+0	Naive Bayes (5K)	0.8505	0.850336	0.853542	0.851936	0.00
+1	Logistic Regression (5K)	0.8880	0.876176	0.905735	0.890710	0.01
+2	DistilBERT (5K)	0.8882	0.914745	0.858107	0.885521	97.70
 
 
