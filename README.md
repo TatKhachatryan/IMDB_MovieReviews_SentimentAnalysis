@@ -76,6 +76,6 @@ I evaluate each model based on several performance metrics: **Accuracy, Precisio
 
 This project highlights the trade-offs between **speed and accuracy** in sentiment analysis, showcasing how different models perform under real-world constraints. 🎥📊
 
-If you want to connect with me, send me a "Hi 👋 " on LinkedIn [![text](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/tatevik-khachatryan-/)
+If you want to connect with me, send me a "Hi 👋 " on [![text](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/tatevik-khachatryan-/)
 
 
