@@ -46,7 +46,6 @@ I evaluate each model based on several performance metrics: **Accuracy, Precisio
 | 🏆 Naive Bayes       | 0.8505    | 0.850336 | 0.8535    | 0.8519   | 0.00    |
 |⚡ Logistic Regression | 0.8880    | 0.8762    | 0.9057   | 0.8907   | 0.01    |
 | 🤖 DistilBERT        | 0.8882    | 0.9147    | 0.8581   | 0.8855   | 97.70   |
-| ---------------------| ----------| ----------| ---------| ---------| --------|
 
 
 
