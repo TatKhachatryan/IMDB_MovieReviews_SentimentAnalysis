@@ -44,8 +44,8 @@ I evaluate each model based on several performance metrics: **Accuracy, Precisio
 | Model                | Accuracy  | Precision | Recall   | F1-Score | Runtime |
 | ---------------------| ----------| ----------| ---------| ---------| --------|
 | 🏆 Naive Bayes       | 0.8505    | 0.850336 | 0.8535    | 0.8519   | 0.00    |
-|⚡ Logistic Regression | 0.8880    | 0.8762    | 0.9057   | 0.8907   | 0.01    |
-| 🤖 DistilBERT        | 0.8882    | 0.9147    | 0.8581   | 0.8855   | 97.70   |
+|⚡ Logistic Regression | 0.8880    | 0.8762    | 0.9057   | 0.8907   | 0.00    |
+| 🤖 DistilBERT        | 0.8882    | 0.9147    | 0.8581   | 0.8855   | 90.40   |
 
 
 
@@ -56,7 +56,7 @@ I evaluate each model based on several performance metrics: **Accuracy, Precisio
 
 * **Logistic Regression** achieved **88.80% accuracy**, proving to be a strong baseline model with a balance between speed and accuracy.
 
-* **DistilBERT** slightly outperformed Logistic Regression with **88.82% accuracy**, but at the cost of a significantly higher runtime **(~98 minutes)**.
+* **DistilBERT** slightly outperformed Logistic Regression with **88.82% accuracy**, but at the cost of a significantly higher runtime **(~90 minutes)**.
 
 ### 6. Summary & Suggestions 📌
 
